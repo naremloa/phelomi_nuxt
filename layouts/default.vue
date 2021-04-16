@@ -2,72 +2,53 @@
   <div>
     <layout-header />
     <Nuxt />
+    <layout-footer />
+    <div
+      v-show="pageName !== 'Home'"
+      class="w-20 h-20 rounded-full bg-primary cursor-pointer
+      text-white text-3xl
+      fixed bottom-28 right-5
+      flex justify-center items-center z-50"
+    >
+      <router-link :to="{ name: 'Home' }">
+        首頁 {{ pageName }}
+      </router-link>
+    </div>
+    <div
+      class="w-20 h-20 rounded-full bg-error cursor-pointer
+      text-white text-2xl
+      fixed bottom-5 right-5
+      flex justify-center items-center z-50"
+    >
+      <a
+        class="whitespace-pre-line"
+        :href="orderLink"
+        target="_blank"
+      >{{ '立即\n訂房' }}</a>
+    </div>
   </div>
 </template>
 <script>
 import LayoutHeader from '@/components/Layout/Header.vue'
+import LayoutFooter from '@/components/Layout/Footer.vue'
+import { orderLink } from '@/data/orderData'
 
 export default {
+  name: 'Layout',
   components: {
-    LayoutHeader
+    LayoutHeader,
+    LayoutFooter
+  },
+  data () {
+    return {
+      orderLink
+    }
+  },
+  computed: {
+    pageName () {
+      return this.$route.name
+    }
   }
 
 }
 </script>
-
-<style>
-html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
-</style>
