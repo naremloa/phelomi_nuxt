@@ -42,11 +42,12 @@ export default {
   },
   methods: {
     handleClick () {
-      if (this.hash.value) {
-        if (this.hash.value.replace(/#/g, this.$route.name === '')) {
+      console.log('check hash', this.hash)
+      if (this.hash) {
+        if (this.hash.replace(/#/g, '') === this.$route.name) {
           this.$router.push({ hash: '#Content' })
         } else {
-          this.$router.push({ name: 'Home', hash: this.hash.value })
+          this.$router.push({ name: 'Home', hash: this.hash })
         }
       }
     }

@@ -11,7 +11,7 @@
       flex justify-center items-center z-50"
     >
       <router-link :to="{ name: 'Home' }">
-        首頁 {{ pageName }}
+        首頁
       </router-link>
     </div>
     <div

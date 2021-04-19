@@ -11,10 +11,13 @@
     "lint": "yarn lint:js"
   },
   "dependencies": {
+    "@mdi/js": "^5.9.55",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/router-extras": "^1.1.1",
     "core-js": "^3.9.1",
-    "nuxt": "^2.15.3"
+    "lodash": "^4.17.21",
+    "nuxt": "^2.15.3",
+    "swiper": "^6.5.7"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^6.0.0",
