@@ -10,10 +10,9 @@
 </template>
 <script>
 import roomsData from '@/data/roomsData'
+import { roomBlockImage } from '@/utils/loadImage'
 import { RoomsSwiper } from './Swiper'
 import RoomItem from './RoomItem.vue'
-
-const images = require.context('~/assets/', true, /\.jpg$/)
 
 export default {
   components: { RoomsSwiper, RoomItem },
@@ -26,8 +25,7 @@ export default {
           name
         } = {}) => {
           if (img) {
-            const imgTarget = images(img.replace(/^~\/assets\//, './'))
-            return { content, id, name, img: imgTarget }
+            return { content, id, name, img: roomBlockImage(img) }
           }
           return { content, id, name, img }
         })

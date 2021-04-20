@@ -8,8 +8,8 @@
     <div class="w-full h-52 relative 2xl:h-64">
       <img
         v-if="img"
-        class="object-cover w-full h-full"
-        :src="img"
+        class="swiper-lazy object-cover w-full h-full"
+        :data-src="img"
       >
       <div
         v-show="focus"

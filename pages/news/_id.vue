@@ -30,8 +30,7 @@ import newsData from '@/data/newsData'
 import Block from '@/components/Block.vue'
 import Title from '@/components/Title.vue'
 import ExploreRoomsList from '@/components/ExploreRoomsList.vue'
-
-const images = require.context('~/assets/news', false, /\.(jpg|png)$/)
+import { newsImage } from '@/utils/loadImage'
 
 export default {
   name: 'News',
@@ -52,7 +51,7 @@ export default {
       blockTitle,
       content,
       title,
-      img: img ? images(img.replace(/^~\/assets\/news\//, './')) : ''
+      img: newsImage(img)
     }
   }
 }

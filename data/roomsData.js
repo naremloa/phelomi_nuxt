@@ -75,7 +75,7 @@ export default [
       '~/assets/rooms/bfag/bfag01.jpg',
       '~/assets/rooms/bfag/bfag02.jpg',
       '~/assets/rooms/bfag/bfag03.jpg',
-      '~/assets/rooms/bfag/bfag04.jpg'
+      '~/assets/rooms/bfag/bfag04.JPG'
     ]
   },
   {
@@ -122,7 +122,7 @@ export default [
       '~/assets/rooms/bfag/bfag01.jpg',
       '~/assets/rooms/bfag/bfag02.jpg',
       '~/assets/rooms/bfag/bfag03.jpg',
-      '~/assets/rooms/bfag/bfag04.jpg'
+      '~/assets/rooms/bfag/bfag04.JPG'
     ]
   },
   {

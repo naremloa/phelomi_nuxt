@@ -11,8 +11,8 @@
         h-full md:h-9/10"
       >
         <img
+          v-lazy="src"
           class="h-full w-full"
-          src="~/assets/bg_image/bg_location.jpg"
         >
       </div>
       <div
@@ -50,6 +50,7 @@ import shipActive from '@/assets/location/icon_ship_active.svg'
 import airplane from '@/assets/location/icon_airplane.svg'
 import airplaneActive from '@/assets/location/icon_airplane_active.svg'
 import LocationItem from '@/components/LocationItem.vue'
+import { bgImage } from '@/utils/loadImage'
 import Block from './Block.vue'
 
 export default {
@@ -67,7 +68,8 @@ export default {
       ship,
       shipActive,
       airplane,
-      airplaneActive
+      airplaneActive,
+      src: bgImage('~/assets/bg_image/bg_location.jpg')
     }
   }
 }

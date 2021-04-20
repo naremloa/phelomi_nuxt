@@ -40,6 +40,12 @@ export default {
   },
   mounted () {
     this.swiper = new Swiper(this.$refs.swiperContainer, {
+      lazy: true,
+      preloadImages: false,
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true
+      },
       loop: true,
       slidesPerView: 1,
       spaceBetween: 50,

@@ -4,8 +4,8 @@
   >
     <img
       v-if="src"
-      class="w-full h-full object-cover"
-      :src="src"
+      class="swiper-lazy w-full h-full object-cover"
+      :data-src="src"
     >
   </div>
 </template>

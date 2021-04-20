@@ -49,6 +49,12 @@ export default {
       return this.$route.name
     }
   }
+  // mounted () {
+  //   /* eslint-disable-next-line */
+  //   if (process.client && window) {
+  //     window.history.scrollRestoration = 'auto'
+  //   }
+  // }
 
 }
 </script>

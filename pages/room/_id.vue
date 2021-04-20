@@ -156,8 +156,7 @@ import RoomIcon from '@/components/RoomIcon.vue'
 import { mdiCheckboxBlankCircle } from '@mdi/js'
 import SvgIcon from '@/components/SvgIcon.vue'
 import ExploreRoomsList from '@/components/ExploreRoomsList.vue'
-
-const images = require.context('~/assets/rooms/', true, /\.jpg$/)
+import { roomImage } from '@/utils/loadImage'
 
 export default {
   name: 'Room',
@@ -200,7 +199,7 @@ export default {
       } = roomsCategory?.[roomData.type] || {}
       return {
         description,
-        imgOptions: imgOptions.map(i => ({ src: i ? images(i.replace(/~\/assets\/rooms\//, './')) : '' })),
+        imgOptions: imgOptions.map(i => ({ src: i ? roomImage(i) : '' })),
         title,
         info,
         iconList

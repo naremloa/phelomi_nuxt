@@ -1,18 +1,19 @@
 <template>
   <block
     id="Map"
-    class=" bg-cover h-full
-    bg-accent md:bg-map-texture"
+    class="h-full bg-accent"
     :title="blockTitle"
     style="min-height: 68.38vw"
   >
     <div
-      class="block md:hidden w-full h-full bg-map-texture bg-cover"
+      v-lazy:background-image="mapSrc"
+      class="w-full h-full bg-map-texture bg-cover bg-center"
       style="min-height: 68.38vw"
     />
   </block>
 </template>
 <script>
+import { bgImage } from '@/utils/loadImage'
 import Block from './Block.vue'
 
 export default {
@@ -24,7 +25,8 @@ export default {
       zh: '澎湖找樂子'
     }
     return {
-      blockTitle
+      blockTitle,
+      mapSrc: bgImage('~/assets/bg_image/bg_haveFun.jpg')
     }
   }
 }
