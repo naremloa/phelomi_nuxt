@@ -1,6 +1,6 @@
 /* eslint-disable camelcase */
 import news_2 from '@/assets/news_block/news_2.jpg'
-import news_4 from '@/assets/news_block/news_4.png'
+import news_4 from '@/assets/news_block/news_4.jpg'
 import news_sanli from '@/assets/news_block/news_sanli.jpg'
 import news_travel from '@/assets/news_block/news_travel.jpg'
 
