@@ -19,7 +19,7 @@
         >
           {{ zh }}
         </div>
-        <div class="w-18 h-20 flex justify-end flex-col mb-1">
+        <div class="boat-image-box w-18 h-20 flex justify-end flex-col mb-1 relative">
           <img :src="bgTitleShip">
           <!-- <img :src="titleLogo"> -->
         </div>
@@ -58,3 +58,13 @@ export default {
   }
 }
 </script>
+<style scoped>
+.boat-image-box::before {
+   position: absolute;
+   content: '';
+   display: inline-block;
+   border-top: 2px solid #2F599C;
+   width: 2rem;
+   bottom: 0;
+}
+</style>
