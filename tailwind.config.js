@@ -17,7 +17,7 @@ module.exports = {
     //   laptop: '1024px',
     // },
     fontFamily: {
-      sans: 'Noto Sans TC,Microsoft JhengHei,"微軟正黑體",STHeiti,sans-serif'
+      sans: "'Noto Sans TC',Microsoft JhengHei,'微軟正黑體',STHeiti,sans-serif"
     },
     letterSpacing: {
       tightest: '-.075em',
@@ -119,7 +119,11 @@ module.exports = {
       },
       borderWidth: {
         1: '1px',
-        10: '10px'
+        10: '10px',
+        16: '16px'
+      },
+      borderRadius: {
+        large: '32px'
       },
       fontSize: {
         tiny: '.5rem'

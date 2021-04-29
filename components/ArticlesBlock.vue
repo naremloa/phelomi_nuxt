@@ -5,7 +5,7 @@
   >
     <div
       class="w-full flex items-center justify-around
-      flex-col md:flex-row"
+      flex-col md:flex-row mt-8"
     >
       <article-item
         class="border-warning text-warning hover:bg-warning"
