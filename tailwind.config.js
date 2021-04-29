@@ -118,7 +118,8 @@ module.exports = {
         location: '0 0 0 1px #fff, 0 0 10px 8px #fff'
       },
       borderWidth: {
-        1: '1px'
+        1: '1px',
+        10: '10px'
       },
       fontSize: {
         tiny: '.5rem'
