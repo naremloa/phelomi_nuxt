@@ -32,27 +32,6 @@ export default [
   },
   {
     id: 'followB',
-    title: '愛浪漫行程',
-    article: [
-      {
-        img: follow7,
-        content: 'Day1. 海底漫步+浮淺<br>Day2. 獨木舟跨島四合一+沙灘浪漫晚餐<br>Day3. 海洋牧場+ 市區逛街去',
-        title: '愛浪漫 A 行程   $ 2680   起/人'
-      },
-      {
-        img: follow8,
-        content: 'Day1. 本島北環島+ 海上浪漫晚餐<br>Day2. 東海超值一日遊 + 沙灘浪漫晚餐<br>Day3. 南海二島七美+望安',
-        title: '愛浪漫 B 行程   $ 3230   起/人'
-      },
-      {
-        img: follow9,
-        content: 'Day1. 悠游浮淺+ 海上浪漫晚餐<br>Day2. 東海賞燕鷗+沙灘浪漫晚餐<br>Day3. 獨木舟跨島四合一',
-        title: '愛浪漫 C 行程   $ 3330   起/人'
-      }
-    ]
-  },
-  {
-    id: 'followC',
     title: '2021 最新行程',
     article: [
       {
@@ -69,6 +48,27 @@ export default [
         img: follow6,
         content: 'Day1. 陽光沙灘水上活動<br>Day2. 南方四島東吉島薰衣草森林浮潛+七美<br>Day3. 海洋牧場+ 市區逛街去',
         title: '愛玩水C行程   $ 4100  起/人'
+      }
+    ]
+  },
+  {
+    id: 'followC',
+    title: '愛浪漫行程',
+    article: [
+      {
+        img: follow7,
+        content: 'Day1. 海底漫步+浮淺<br>Day2. 獨木舟跨島四合一+沙灘浪漫晚餐<br>Day3. 海洋牧場+ 市區逛街去',
+        title: '愛浪漫 A 行程   $ 2680   起/人'
+      },
+      {
+        img: follow8,
+        content: 'Day1. 本島北環島+ 海上浪漫晚餐<br>Day2. 東海超值一日遊 + 沙灘浪漫晚餐<br>Day3. 南海二島七美+望安',
+        title: '愛浪漫 B 行程   $ 3230   起/人'
+      },
+      {
+        img: follow9,
+        content: 'Day1. 悠游浮淺+ 海上浪漫晚餐<br>Day2. 東海賞燕鷗+沙灘浪漫晚餐<br>Day3. 獨木舟跨島四合一',
+        title: '愛浪漫 C 行程   $ 3330   起/人'
       }
     ]
   }
