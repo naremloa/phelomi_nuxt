@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@mdi/js": "^5.9.55",
+    "@nuxtjs/gtm": "^2.4.0",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/router-extras": "^1.1.1",
     "core-js": "^3.9.1",

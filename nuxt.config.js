@@ -54,7 +54,8 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '@nuxtjs/gtm'
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -62,6 +63,12 @@ export default {
     manifest: {
       lang: 'en'
     }
+  },
+
+  // gtm module configuration: https://github.com/nuxt-community/gtm-module
+  gtm: {
+    id: 'GTM-MJMZ9RR',
+    pageTracking: true
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
