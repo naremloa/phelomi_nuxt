@@ -48,12 +48,14 @@
               <long-social-btn
                 class="flex-grow mr-2"
                 :img="iconWechat"
+                :copy-text="'f0967229968'"
               >
                 微信加入好友
               </long-social-btn>
               <long-social-btn
                 class="flex-grow mr-2"
                 :img="iconLine"
+                url="https://lin.ee/1afwIoQ"
               >
                 LINE 加入好友
               </long-social-btn>
@@ -62,12 +64,14 @@
               <long-social-btn
                 class="flex-grow mr-2"
                 :img="iconFb"
+                url="https://www.facebook.com/family.starrysky/"
               >
                 FB 加入好友
               </long-social-btn>
               <long-social-btn
                 class="flex-grow mr-2"
                 :img="iconIg"
+                url="https://www.instagram.com/familystarrysky/"
               >
                 IG 加入好友
               </long-social-btn>
