@@ -26,6 +26,7 @@
         target="_blank"
       >{{ '立即\n訂房' }}</a>
     </div>
+    <notifications position="top right" classes="vue-notification phelomi-notification" />
   </div>
 </template>
 <script>
@@ -58,3 +59,8 @@ export default {
 
 }
 </script>
+<style>
+.vue-notification.phelomi-notification {
+  margin: 20px;
+}
+</style>
