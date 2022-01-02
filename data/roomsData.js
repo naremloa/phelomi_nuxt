@@ -9,10 +9,9 @@ export default [
     name: '星空號愛琴海四人房',
     description: '愛琴海',
     imgOptions: [
-      '~/assets/rooms/afas/afas01.jpg',
-      '~/assets/rooms/afas/afas02.jpg',
-      '~/assets/rooms/afas/afas03.jpg',
-      '~/assets/rooms/afas/afas04.jpg'
+      '~/assets/rooms/afas/A002.jpg',
+      '~/assets/rooms/afas/A003.jpg',
+      '~/assets/rooms/afas/A004.jpg'
     ]
   },
   {
@@ -25,10 +24,10 @@ export default [
     name: '星空號愛爾蘭海雙人房',
     description: '愛爾蘭海',
     imgOptions: [
-      '~/assets/rooms/atis/atis01.jpg',
-      '~/assets/rooms/atis/atis02.jpg',
-      '~/assets/rooms/atis/atis04.jpg',
-      '~/assets/rooms/atis/atis01.jpg'
+      '~/assets/rooms/atis/C002.jpg',
+      '~/assets/rooms/atis/C003.jpg',
+      '~/assets/rooms/atis/C004.jpg',
+      '~/assets/rooms/atis/C005.jpg'
     ]
   },
   {
@@ -41,10 +40,10 @@ export default [
     name: '星空號珊瑚海雙人房',
     description: '珊瑚海',
     imgOptions: [
-      '~/assets/rooms/atcs/atcs01.jpg',
-      '~/assets/rooms/atcs/atcs02.jpg',
-      '~/assets/rooms/atcs/atcs03.jpg',
-      '~/assets/rooms/atcs/atcs04.jpg'
+      '~/assets/rooms/atcs/D002.jpg',
+      '~/assets/rooms/atcs/D003.jpg',
+      '~/assets/rooms/atcs/D004.jpg',
+      '~/assets/rooms/atcs/D005.jpg'
     ]
   },
   {
@@ -57,9 +56,11 @@ export default [
     name: '星空號太平洋雙人房',
     description: '太平洋',
     imgOptions: [
-      '~/assets/rooms/atpo/atpo01.jpg',
-      '~/assets/rooms/atpo/atpo02.jpg',
-      '~/assets/rooms/atpo/atpo03.jpg'
+      '~/assets/rooms/atpo/E002.jpg',
+      '~/assets/rooms/atpo/E003.jpg',
+      '~/assets/rooms/atpo/E004.jpg',
+      '~/assets/rooms/atpo/E005.jpg',
+      '~/assets/rooms/atpo/E006.jpg'
     ]
   },
   {
@@ -72,10 +73,11 @@ export default [
     name: '彩虹堡蘋果綠四人房',
     description: '蘋果綠',
     imgOptions: [
-      '~/assets/rooms/bfag/bfag01.jpg',
-      '~/assets/rooms/bfag/bfag02.jpg',
-      '~/assets/rooms/bfag/bfag03.jpg',
-      '~/assets/rooms/bfag/bfag04.JPG'
+      '~/assets/rooms/bfag/O002.jpg',
+      '~/assets/rooms/bfag/O003.jpg',
+      '~/assets/rooms/bfag/O004.jpg',
+      '~/assets/rooms/bfag/O005.jpg',
+      '~/assets/rooms/bfag/O006.jpg'
     ]
   },
   {
@@ -88,10 +90,11 @@ export default [
     name: '彩虹堡桔子橙四人房',
     description: '桔子橙',
     imgOptions: [
-      '~/assets/rooms/bfoo/bfoo01.jpg',
-      '~/assets/rooms/bfoo/bfoo02.jpg',
-      '~/assets/rooms/bfoo/bfoo03.jpg',
-      '~/assets/rooms/bfoo/bfoo04.jpg'
+      '~/assets/rooms/bfoo/K002.jpg',
+      '~/assets/rooms/bfoo/K003.jpg',
+      '~/assets/rooms/bfoo/K004.jpg',
+      '~/assets/rooms/bfoo/K005.jpg',
+      '~/assets/rooms/bfoo/K006.jpg'
     ]
   },
   {
@@ -104,9 +107,10 @@ export default [
     name: '彩虹堡紫蘿蘭四人房',
     description: '紫蘿蘭',
     imgOptions: [
-      '~/assets/rooms/bfv/bfv01.jpg',
-      '~/assets/rooms/bfv/bfv02.jpg',
-      '~/assets/rooms/bfv/bfv03.jpg'
+      '~/assets/rooms/bfv/L002.jpg',
+      '~/assets/rooms/bfv/L003.jpg',
+      '~/assets/rooms/bfv/L004.jpg',
+      '~/assets/rooms/bfv/L005.jpg'
     ]
   },
   {
@@ -119,10 +123,11 @@ export default [
     name: '彩虹堡蘋果綠四人房',
     description: '蘋果綠',
     imgOptions: [
-      '~/assets/rooms/bfag/bfag01.jpg',
-      '~/assets/rooms/bfag/bfag02.jpg',
-      '~/assets/rooms/bfag/bfag03.jpg',
-      '~/assets/rooms/bfag/bfag04.JPG'
+      '~/assets/rooms/bfag/O002.jpg',
+      '~/assets/rooms/bfag/O003.jpg',
+      '~/assets/rooms/bfag/O004.jpg',
+      '~/assets/rooms/bfag/O005.jpg',
+      '~/assets/rooms/bfag/O006.jpg'
     ]
   },
   {
@@ -135,9 +140,10 @@ export default [
     name: '彩虹堡可可棕四人房',
     description: '可可棕',
     imgOptions: [
-      '~/assets/rooms/bfc/bfc01.jpg',
-      '~/assets/rooms/bfc/bfc02.jpg',
-      '~/assets/rooms/bfc/bfc03.jpg'
+      '~/assets/rooms/bfc/P002.jpg',
+      '~/assets/rooms/bfc/P003.jpg',
+      '~/assets/rooms/bfc/P004.jpg',
+      '~/assets/rooms/bfc/P005.jpg'
     ]
   },
   {
@@ -150,8 +156,11 @@ export default [
     name: '彩虹堡珊瑚粉四人房',
     description: '珊瑚粉',
     imgOptions: [
-      '~/assets/rooms/bfcp/bfcp01.jpg',
-      '~/assets/rooms/bfcp/bfcp02.jpg'
+      '~/assets/rooms/bfcp/Q002.jpg',
+      '~/assets/rooms/bfcp/Q003.jpg',
+      '~/assets/rooms/bfcp/Q004.jpg',
+      '~/assets/rooms/bfcp/Q005.jpg',
+      '~/assets/rooms/bfcp/Q006.jpg'
     ]
   }
 ]
