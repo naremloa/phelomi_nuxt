@@ -156,125 +156,125 @@ export default [
       '~/assets/rooms/bfcp/Q006.jpg'
     ]
   },
+  // {
+  //   id: 'beikebai',
+  //   type: '',
+  //   short: {
+  //     content: '',
+  //     img: '~/assets/rooms_block/beikebai.jpg'
+  //   },
+  //   name: '',
+  //   description: '貝殼白',
+  //   imgOptions: [
+  //     '~/assets/rooms/beikebai/I001-cover.jpg',
+  //     '~/assets/rooms/beikebai/I002.jpg',
+  //     '~/assets/rooms/beikebai/I003.jpg',
+  //     '~/assets/rooms/beikebai/I004.jpg',
+  //     '~/assets/rooms/beikebai/I005.jpg',
+  //     '~/assets/rooms/beikebai/I006.jpg'
+  //   ]
+  // },
   {
-    id: 'beikebai',
-    type: '',
+    id: 'atio',
+    type: 's2',
     short: {
-      content: '',
-      img: '~/assets/rooms_block/beikebai.jpg'
+      content: '遠眺窗外無邊際的大海，也許吧！這是一趟航向夢想與想像的旅行',
+      img: '~/assets/rooms_block/a2-indian-ocean.jpg'
     },
-    name: '',
-    description: '貝殼白',
-    imgOptions: [
-      '~/assets/rooms/beikebai/I001-cover.jpg',
-      '~/assets/rooms/beikebai/I002.jpg',
-      '~/assets/rooms/beikebai/I003.jpg',
-      '~/assets/rooms/beikebai/I004.jpg',
-      '~/assets/rooms/beikebai/I005.jpg',
-      '~/assets/rooms/beikebai/I006.jpg',
-    ]
-  },
-  {
-    id: 'yinduyang',
-    type: '',
-    short: {
-      content: '',
-      img: '~/assets/rooms_block/yinduyang.jpg'
-    },
-    name: '',
+    name: '星空號印度洋雙人房',
     description: '印度洋',
     imgOptions: [
-      '~/assets/rooms/yinduyang/G001-cover.jpg',
-      '~/assets/rooms/yinduyang/G002.jpg',
-      '~/assets/rooms/yinduyang/G003.jpg',
-      '~/assets/rooms/yinduyang/G004.jpg',
-      '~/assets/rooms/yinduyang/G005.jpg',
+      '~/assets/rooms/atio/G001-cover.jpg',
+      '~/assets/rooms/atio/G002.jpg',
+      '~/assets/rooms/atio/G003.jpg',
+      '~/assets/rooms/atio/G004.jpg',
+      '~/assets/rooms/atio/G005.jpg'
     ]
   },
   {
-    id: 'daxiyang',
-    type: '',
+    id: 'ata',
+    type: 's2',
     short: {
-      content: '',
-      img: '~/assets/rooms_block/daxiyang.jpg'
+      content: '海洋，總是有一個浪漫的愛情故事，也許是電影裡的鐵達尼，亦或是童話裡的美人魚？',
+      img: '~/assets/rooms_block/a2-atlantic.jpg'
     },
-    name: '',
+    name: '星空號大西洋雙人房',
     description: '大西洋',
     imgOptions: [
-      '~/assets/rooms/daxiyang/F001-cover.jpg',
-      '~/assets/rooms/daxiyang/F002.jpg',
-      '~/assets/rooms/daxiyang/F003.jpg',
-      '~/assets/rooms/daxiyang/F004.jpg',
-      '~/assets/rooms/daxiyang/F005.jpg',
-      '~/assets/rooms/daxiyang/F006.jpg',
+      '~/assets/rooms/ata/F001-cover.jpg',
+      '~/assets/rooms/ata/F002.jpg',
+      '~/assets/rooms/ata/F003.jpg',
+      '~/assets/rooms/ata/F004.jpg',
+      '~/assets/rooms/ata/F005.jpg',
+      '~/assets/rooms/ata/F006.jpg'
     ]
   },
   {
-    id: 'jialebihai',
-    type: '',
+    id: 'afcs',
+    type: 's4',
     short: {
-      content: '',
-      img: '~/assets/rooms_block/jialebihai.jpg'
+      content: '人家都說，加勒比海是海盜橫行的海域，也許可以讓這趟旅行，帶點刺激的冒險行程',
+      img: '~/assets/rooms_block/b4-caribbean-sea.jpg'
     },
-    name: '',
+    name: '星空號加勒比海四人房',
     description: '加勒比海',
     imgOptions: [
-      '~/assets/rooms/jialebihai/B001-cover.jpg',
-      '~/assets/rooms/jialebihai/B002.jpg',
-      '~/assets/rooms/jialebihai/B003.jpg',
-      '~/assets/rooms/jialebihai/B004.jpg',
+      '~/assets/rooms/afcs/B001-cover.jpg',
+      '~/assets/rooms/afcs/B002.jpg',
+      '~/assets/rooms/afcs/B003.jpg',
+      '~/assets/rooms/afcs/B004.jpg'
     ]
   },
   {
-    id: 'limeihong',
-    type: '',
+    id: 'bfcr',
+    type: 'r4',
     short: {
-      content: '',
-      img: '~/assets/rooms_block/limeihong.jpg'
+      content: '白色純淨、紅色熱情、藍色自由...你心裡渴望什麼色彩？用旅行的心情，彩繪心裡那一個，屬於自己的顏色...',
+      img: '~/assets/rooms_block/b4-chestnut-red.jpg'
     },
-    name: '',
+    name: '彩虹堡栗梅紅四人房',
     description: '栗梅紅',
     imgOptions: [
-      '~/assets/rooms/limeihong/J001-cover.jpg',
-      '~/assets/rooms/limeihong/J002.jpg',
-      '~/assets/rooms/limeihong/J003.jpg',
-      '~/assets/rooms/limeihong/J004.jpg',
-      '~/assets/rooms/limeihong/J005.jpg',
-      '~/assets/rooms/limeihong/J006.jpg',
+      '~/assets/rooms/bfcr/J001-cover.jpg',
+      '~/assets/rooms/bfcr/J002.jpg',
+      '~/assets/rooms/bfcr/J003.jpg',
+      '~/assets/rooms/bfcr/J004.jpg',
+      '~/assets/rooms/bfcr/J005.jpg',
+      '~/assets/rooms/bfcr/J006.jpg'
     ]
   },
+  // {
+  //   id: 'yujinhuang',
+  //   type: '',
+  //   short: {
+  //     content: '',
+  //     img: '~/assets/rooms_block/yujinhuang.jpg'
+  //   },
+  //   name: '',
+  //   description: '郁金黃',
+  //   imgOptions: [
+  //     '~/assets/rooms/yujinhuang/M001-cover.jpg',
+  //     '~/assets/rooms/yujinhuang/M002.jpg',
+  //     '~/assets/rooms/yujinhuang/M003.jpg',
+  //     '~/assets/rooms/yujinhuang/M004.jpg',
+  //     '~/assets/rooms/yujinhuang/M005.jpg'
+  //   ]
+  // },
   {
-    id: 'yujinhuang',
-    type: '',
+    id: 'btsb',
+    type: 'r2',
     short: {
-      content: '',
-      img: '~/assets/rooms_block/yujinhuang.jpg'
+      content: '你多久沒仰望天空了?彩虹、星星、月亮、太陽...還有那一片片像棉花糖的白雲',
+      img: '~/assets/rooms_block/b2-sky-blue.jpg'
     },
-    name: '',
-    description: '郁金黃',
-    imgOptions: [
-      '~/assets/rooms/yujinhuang/M001-cover.jpg',
-      '~/assets/rooms/yujinhuang/M002.jpg',
-      '~/assets/rooms/yujinhuang/M003.jpg',
-      '~/assets/rooms/yujinhuang/M004.jpg',
-      '~/assets/rooms/yujinhuang/M005.jpg',
-    ]
-  },
-  {
-    id: 'tiankonglan',
-    type: '',
-    short: {
-      content: '',
-      img: '~/assets/rooms_block/tiankonglan.jpg'
-    },
-    name: '',
+    name: '彩虹堡天空藍雙人房',
     description: '天空藍',
     imgOptions: [
-      '~/assets/rooms/tiankonglan/H001-cover.jpg',
-      '~/assets/rooms/tiankonglan/H002.jpg',
-      '~/assets/rooms/tiankonglan/H003.jpg',
-      '~/assets/rooms/tiankonglan/H004.jpg',
-      '~/assets/rooms/tiankonglan/H005.jpg',
+      '~/assets/rooms/btsb/H001-cover.jpg',
+      '~/assets/rooms/btsb/H002.jpg',
+      '~/assets/rooms/btsb/H003.jpg',
+      '~/assets/rooms/btsb/H004.jpg',
+      '~/assets/rooms/btsb/H005.jpg'
     ]
-  },
+  }
 ]
