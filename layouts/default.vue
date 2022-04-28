@@ -34,6 +34,7 @@ import LayoutHeader from '@/components/Layout/Header.vue'
 import LayoutFooter from '@/components/Layout/Footer.vue'
 import { orderLink } from '@/data/orderData'
 
+// console.log('s')
 export default {
   name: 'Layout',
   components: {
