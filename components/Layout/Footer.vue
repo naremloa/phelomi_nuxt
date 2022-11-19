@@ -31,7 +31,7 @@
                   (06)995-3288
                 </contact-item>
                 <contact-item :img="iconPhone">
-                  0967-229-968
+                  0952-030-855
                 </contact-item>
                 <contact-item :img="iconEmail">
                   2019starrysky@gmail.com
