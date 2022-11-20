@@ -31,10 +31,10 @@
                   (06)995-3288
                 </contact-item>
                 <contact-item :img="iconPhone">
-                  0952-030-855
+                  0967369369
                 </contact-item>
                 <contact-item :img="iconEmail">
-                  2019starrysky@gmail.com
+                  summerblue.ph@gmail.com
                 </contact-item>
                 <contact-item
                   class="tracking-widest"
@@ -45,13 +45,6 @@
               </div>
             </div>
             <div class="flex mt-2 flex-wrap justify-center">
-              <long-social-btn
-                class="flex-grow mr-2"
-                :img="iconWechat"
-                :copy-text="'f0967229968'"
-              >
-                微信加入好友
-              </long-social-btn>
               <long-social-btn
                 class="flex-grow mr-2"
                 :img="iconLine"
