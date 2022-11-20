@@ -1,20 +1,28 @@
 # phelomi_nuxt
 
-## Build Setup
+## 環境需求
 
-```bash
-# install dependencies
-$ yarn install
+- node v16.x
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+## 初始指令
 
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+```
+npm install yarn -g
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## 環境變數
+
+- PORT - 監聽端口(預設為 8080)
+
+## 打包指令
+
+```bash
+yarn install
+yarn build
+```
+
+## 服務啟動指令
+
+```bash
+yarn start
+```
